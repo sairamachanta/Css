@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align property</title>
+    <style>
+        table, tr,td{
+            border: 1px solid;
+            height: 20px;
+            width: 300px;
+            border-collapse: collapse;  
+        }
+        tr :nth-child(3){
+            text-align: end;
+        }
+        tr :nth-child(2){
+            text-align: center;
+        }
+        tr :nth-child(1)
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2> table with aligned text using text-align property</h2>
+    <table>
+        <tr>
+            <td>Left</td>
+            <td>Center</td>
+            <td>Right</td>
+        </tr>
+        <tr>
+            <td>Left</td>
+            <td>Center</td>
+            <td>Right</td>
+        </tr>
+        <tr>
+            <td>Left</td>
+            <td>Center</td>
+            <td>Right</td>
+        </tr>
+    </table>
+</body>
+</html>

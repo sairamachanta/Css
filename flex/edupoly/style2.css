@@ -1,0 +1,104 @@
+* {
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav-bar {
+    padding: 10px 50px;
+    justify-content: center;
+}
+
+.nav-left {
+    width: 20%;
+    align-items: center;
+}
+
+.nav-right {
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu p {
+    margin-left: 40px;
+
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-right.menu p {
+    justify-content: center;
+}
+
+.banner {
+    background-color: rgb(0, 157, 255);
+    padding: 10px 50px;
+    justify-content: center;
+}
+
+.ban-lf {
+    width: 50%;
+    padding: 20px 0;
+}
+
+
+.ban-rt {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.ban-lf p {
+    color: white;
+}
+
+.ban-lf,
+img {
+    height: 250px;
+}
+
+.banner-btn {
+    padding: 7px 15px;
+    font-style: italic;
+    color: rgb(0, 157, 255);
+    border: 8px solid rgb(52, 153, 216);
+    background-color: white;
+}
+
+.sm-banner {
+    padding: 10px 50px;
+}
+
+.sm-banner p{
+    margin: 0;
+}
+.left {
+    width: 40%;
+}
+
+.left2{
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.right{
+    width: 40%;
+    justify-content: center;
+}
+
+.left2 button{
+    padding: 5px 15px;
+    font-style: italic;
+    color: rgb(0, 157, 255);
+    border: 8px solid rgb(52, 153, 216);
+    background-color: white;   
+}

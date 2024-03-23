@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: rgb(188, 236, 248);
+            height: 400px;
+            padding: 20px;
+        }
+
+        body {
+            margin: 0%;
+        }
+        .c1 img{
+            width: 10%;
+            border-radius: 50%;
+        }
+        .c21 img{
+            width: 20%;
+            border-radius: 50%;
+        }
+        .c22 img{
+            width: 10%;
+            border-radius: 50%;
+        }
+
+        /*----li>c1>c2 and c2 divide in 2 blocks each block contain 50 50 */
+        .l1 {
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+            padding: 10px;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+
+        .c1 {
+            width: 100%;
+            margin: -2px;
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+            background-color:white;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 2px 3px rgb(227, 227, 227);
+        }
+
+        .c2 {
+            width: 100%;
+            margin: -2px;
+            display: inline-block;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .c21 {
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px;
+            background-color:white ;
+            border: 5px solid rgb(188, 236, 248);
+            vertical-align: top;
+            border-radius: 10px;
+        }
+
+        .c22 {
+            display: inline-block;
+            width: 50%;
+            height: 165px;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 5px solid rgb(188, 236, 248);
+            background-color:white ;
+            vertical-align: top;
+            border-radius: 10px;
+        }
+
+        .right {
+            width: 50%;
+            margin: -2px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        #d1 {
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+            box-sizing: border-box;
+        }
+
+        #d2 {
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+        }
+
+        .l2 {
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+            padding: 10px;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+        .first{
+            width: 100%;
+            margin: -2px;
+        }
+        .r1{
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px; 
+        }
+        .r2{
+            display: inline-block;
+            width: 50%;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px; 
+        }
+        .r3{
+            width: 100%;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px; 
+        }
+        .r4{
+            width: 100%;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px; 
+        }
+        .btn{
+            width: 100%;
+            margin: -2px;
+            box-sizing: border-box;
+            padding: 10px; 
+            text-align: center;
+        }
+        .btn button{
+            background-color: red;
+            color: white;
+            height: 40px;
+            width: 200px;
+            border-radius: 5px;
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="l1">
+            <div class="c1">
+                <div>
+                    <img src="https://media.istockphoto.com/id/1376008345/vector/geolocation-point-terrain-icon-map-pin-address-sign.jpg?s=612x612&w=0&k=20&c=dw16YhaV2-x9W4OMp3EQvccowxhhIjtyhG6-uF2rj58=" alt="">
+                </div>
+                <div>
+                    <h3>Our Address</h3>
+                </div>
+                <div>
+                    <span>A108 Adam Street, New York, NY 535022</span>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="c21">
+                    <div>
+                        <img src="https://logowik.com/content/uploads/images/513_email.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>Email Us</h3>
+                    </div>
+                    <div>
+                        <span>info@example.com</span>
+                    </div>
+                    <div>
+                        <span>contact@example.com</span>
+                    </div>
+                </div>
+                <div class="c22">
+                    <div>
+                        <img src="https://w7.pngwing.com/pngs/313/776/png-transparent-iphone-telephone-call-computer-icons-call-volume-call-electronics-text-hand-thumbnail.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Call Us</h3>
+                    </div>
+                    <div>
+                        <span>+1 5589 55488 55</span>
+                    </div>
+                    <div>
+                        <span>+1 6678 254445 41</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------->
+        <div class="l2">
+            <div class="first">
+                <div class="r1">
+                    <div class="rr1">
+                        <input type="text" name="" placeholder="Your Name" size="36" id="">
+                    </div>
+                </div>
+                <div class="r2">
+                    <div class="rr2">
+                        <input type="email" name="" placeholder="Your Email" size="36" id="">
+                    </div>
+                </div>
+                <div class="r3">
+                    <div>
+                        <input type="text" name="" placeholder="Subject" id="" size="80">
+                    </div>
+                </div>
+                <div class="r4">
+                    <div>
+                        <textarea name="" id="" cols="76" rows="10">Message</textarea>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button>Send Message</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border: 1px solid;
+            height: 30px;
+            width: 450px;
+            text-align: center;
+        }
+        #d1{
+            background-color: rgb(63, 92, 31);
+        }
+        #d3{
+            background-color: rgb(11, 11, 71);
+        }
+        #d2 img{
+            height: 200px;
+            width: 300px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>table with image using rowspan and colspan</h2>
+    <table>
+        <tr id="d1">
+            <td colspan="3"></td>
+        </tr>
+        <tr id="d2">
+            <td></td>
+            <td><img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" alt=""></td>
+            <td></td>
+        </tr>
+        <tr id="d3">
+            <td colspan="3"></td>
+        </tr>
+    </table>
+</body>
+</html>

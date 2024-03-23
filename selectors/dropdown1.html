@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .dropdown>p{
+        display: inline-block;
+        width: 100px;
+        background-color:lightpink;
+        height: 30px;
+        
+        text-align: center;
+       }
+       div p:hover{
+        background-color:lightgoldenrodyellow;
+        color:rgb(3, 3, 7);
+       }
+      div ul li{
+        display: none;
+        position: absolute;
+       }
+       #d1:hover #d2{
+        display: block;
+       }
+    </style>
+</head>
+<body>
+   <div class="dropdown">
+    <p>Home</p>
+    <p>About</p>
+    <p id="d1">Tutorial</p>
+    <p>Service</p>
+    <div id="d2">
+        <ul>
+            <li>Learn to Html</li>
+            <li>Learn to CSS</li>
+            <li>Learn to JS</li>
+        </ul>
+    </div>
+   </div>
+</body>
+</html>
